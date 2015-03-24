@@ -1,4 +1,4 @@
-#tests to see if variable is string or not
+#tests to see if variable is string or not -Girvana
 def testForString(string):
     try:
         float(string)
@@ -6,7 +6,7 @@ def testForString(string):
     except ValueError:
         return False
         
-#makes sure variable only contains alphabetical characters
+#makes sure variable only contains alphabetical characters -Girvana
 while not variable.isalpha():
   print("Invalid input")
   variable=("input variable: ")
