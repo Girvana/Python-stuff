@@ -10,3 +10,10 @@ def testForString(string):
 while not variable.isalpha():
   print("Invalid input")
   variable=("input variable: ")
+
+#formatting in print- Girvana
+{:}.variableName
+#comma in between thousands
+{:,}.variableName
+#decmal places
+{:.2f}.variableName #2 decimal places, change number tyo change decimal places
